@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Component</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Body div -->
+    <div class="bg-grayishBlue flex h-screen">
+      <!-- Parent container -->
+      <div
+        id="parent"
+        class="flex flex-col justify-center items-center m-auto bg-white rounded-xl p-5 w-3/4 sm:w-1/2 md:w-1/4 lg:w-1/5"
+      >
+        <!-- Children divs -->
+        <div id="image-div" class="mb-4 rounded-xl overflow-hidden">
+          <img src="img/image-qr-code.png" alt="" />
+        </div>
+        <div>
+          <h1
+            class="text-center text-xl text-darkBlue font-outfit font-bold pb-2"
+          >
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="text-center text-sm font-outfit text-lightGray">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
