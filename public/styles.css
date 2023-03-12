@@ -575,9 +575,9 @@ video {
   border-radius: 0.75rem;
 }
 
-.bg-grayishBlue {
+.bg-lightGray {
   --tw-bg-opacity: 1;
-  background-color: hsl(220 15% 55% / var(--tw-bg-opacity));
+  background-color: hsl(212 45% 89% / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -623,6 +623,11 @@ video {
 .text-lightGray {
   --tw-text-opacity: 1;
   color: hsl(212 45% 89% / var(--tw-text-opacity));
+}
+
+.text-grayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(220 15% 55% / var(--tw-text-opacity));
 }
 
 @media (min-width: 450px) {
